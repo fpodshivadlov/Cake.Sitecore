@@ -1,4 +1,4 @@
-#addin "Cake.Npm&version=0.16.0"
+#load "import.cake"
 
 Sitecore.Tasks.RestoreNuGetPackagesTask = Task("Restore :: Restore NuGet Packages")
     .Description("Restore NuGet packages for a solution")

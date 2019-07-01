@@ -1,4 +1,4 @@
-#addin "Cake.Powershell&version=0.4.7"
+#load "../import.cake"
 
 Action<string, List<FilePath>> DeploySitecorePackages = (sitecoreInstanceUri, files) =>
 {

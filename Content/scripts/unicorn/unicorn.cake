@@ -1,4 +1,4 @@
-#addin "Cake.Powershell&version=0.4.7"
+#load "../import.cake"
 
 Func<string, string, string> getUnicornSecret = (unicornConfigPath, unicornSecret) => {
     if (string.IsNullOrEmpty(unicornSecret))
